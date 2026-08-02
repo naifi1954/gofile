@@ -95,4 +95,3 @@ echo ""
 echo "Setup selesai."
 echo "Command terpasang di: $SCRIPT_PATH"
 echo ""
-source $HOME/.bashrc
