@@ -7,6 +7,7 @@ SCRIPT_PATH="$BIN_DIR/gofile"
 mkdir -p "$BIN_DIR"
 
 # Pastikan requests terinstall
+sudo apt install python3 && sudo apt install python3-pip -y
 pip install --user --quiet requests
 
 # Tulis script utama
