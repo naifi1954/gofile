@@ -8,7 +8,7 @@ mkdir -p "$BIN_DIR"
 
 # Pastikan requests terinstall
 sudo apt install python3 && sudo apt install python3-pip -y
-pip install --user --quiet requests
+pip install --break-system-packages --user --quiet requests
 
 # Tulis script utama
 cat > "$SCRIPT_PATH" << 'PYEOF'
